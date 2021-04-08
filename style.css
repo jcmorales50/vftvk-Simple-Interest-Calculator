@@ -1,4 +1,65 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;     
+}
+
+h1 {
+    color:grey; font-family:verdana;
+}
+
+.contenedor {
+    text-align:center;
+    
+}
+
+.caja { 
+    background-color:white;       
+    margin-top: 5px;
+    display:inline-block;    
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+   
+    border-radius: 25px;  
+    text-align: center;
+}
+
+.rate_text {
+    width: 40px;
+    border:0;
+}
+
+
+form label {
+    display: inline-block;
+    width: 110px;
+    text-align: left;
+}
+
+form input {
+    display: inline-block;
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+form select {
+    display: inline-block;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+table {
+    border: 0;
+    text-align: left;
+    display:inline-block;   
+
+}
+
+footer {
+    text-align: left;
+}
+
+
 
 

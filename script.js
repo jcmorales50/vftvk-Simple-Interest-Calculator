@@ -11,7 +11,12 @@ function compute()
     if (principal !="" & principal > 0) {
         document.getElementById("result").innerHTML = '<hr>If you deposit <mark>' + principal + '</mark>,<br>at an interest rate of <mark>' + rate + '%</mark>.<br> You will receive an amount of <mark>' + interest + '</mark>,<br> in the year <mark>' + year + '</mark><hr><br>';        
   
-    } else alert("Enter a positive principal amount");
+    } 
+    else 
+    {
+        alert("Enter a positive principal amount");
+        document.getElementById("principal").focus();
+    }
 
 }
 
